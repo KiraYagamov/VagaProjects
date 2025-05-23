@@ -14,7 +14,7 @@ public class Bot {
         System.out.printf("Бот %s успешно создан%n", name);
     }
 
-    public int ask(){
+    public int answer(){
         int result = min + random.nextInt(max - min);
         System.out.println("Бот " + id + " - " + name + " думает, что это " + result);
         return result;

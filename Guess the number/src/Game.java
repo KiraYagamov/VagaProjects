@@ -20,8 +20,8 @@ public class Game {
         }
     }
     private boolean tryToAnswer(Bot bot){
-        int botAsk = bot.ask();
-        if (botAsk == question){
+        int botAnswer = bot.answer();
+        if (botAnswer == question){
             System.out.println("И он угадал!");
             isGameEnded = true;
             return true;
